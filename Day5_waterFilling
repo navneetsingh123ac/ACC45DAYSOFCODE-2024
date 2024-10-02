@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	for(int i = 0; i<t; i++){
+	    int b1,b2,b3;
+	    cin>>b1>>b2>>b3;
+	    int ans = b1 + b2 + b3;
+	    if(ans<2) cout<<"Water filling time"<<endl;
+	    else {cout<<"Not now"<<endl;}
+	}
+
+}
